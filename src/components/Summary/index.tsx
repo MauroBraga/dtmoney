@@ -3,11 +3,11 @@ import React, { useContext } from 'react';
 import iconeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import totalImg from '../../assets/total.svg';
-import { TransactionsContext } from '../../TransactionsContext';
+import { useTransactions } from '../../hooks/useTransactions';
 import { Container } from './styles';
 
 const Summary: React.FC = () => {
-    const { transactions }=useContext(TransactionsContext);
+    const { transactions }=useTransactions();
     console.log(transactions);
 
     // const totalDeposit = transactions.reduce((acc, transaction) => {
