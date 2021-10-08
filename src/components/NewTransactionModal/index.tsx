@@ -4,7 +4,6 @@ import outcomeImg from '../../assets/outcome.svg';
 import closeImg from '../../assets/close.svg';
 import { Container, TransactioTypeContainer,RadioBox } from './styles';
 import { FormEvent, useContext, useState } from 'react';
-import { api } from '../../services/api';
 import { TransactionsContext } from '../../TransactionsContext';
 
 interface NewTransactionModalProps {
