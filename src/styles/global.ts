@@ -32,7 +32,7 @@ export const  GlobalStyle = createGlobalStyle`
     }
 
     //REM = 1 rem = 16px
-    //vM@030618191
+    
 
     body {
         background-color: var(--background);
